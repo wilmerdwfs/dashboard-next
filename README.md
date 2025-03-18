@@ -1,35 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<li>📥 Descargar y Levantar el Servidor</li>
+<li>git clone &lt;URL_DEL_REPOSITORIO&gt;</li>
+<li>cd dashboard-next</li>
+<li>npm install</li>
+<li>npm run dev</li>
 
-## Getting Started
+<li>📊 Implementación de Google Analytics</li>
+<li>Google Analytics se ha integrado en los siguientes componentes:</li>
+<li>TopFilter</li>
+<li>TopBarMedioFilter</li>
 
-First, run the development server:
+<li>📌 Librería utilizada</li>
+<li>Se ha utilizado la librería react-ga4 para la integración.</li>
+<li>npm install react-ga4</li>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<li>📝 Explicación de la Implementación</li>
+<li>La integración de Google Analytics en estos filtros tiene como objetivo analizar el comportamiento del usuario vendedor.</li>
+<li>En el TopFilter, se rastrea cuál es el interés de los vendedores en ciertas categorías según la cantidad de clics en cada botón.</li>
+<li>Esto permite evaluar patrones de venta y su impacto psicológico para tomar decisiones estratégicas.</li>
+<li>En el TopBarMedioFilter, se aplica la misma lógica para analizar los días en los que los vendedores están más activos.</li>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<li>🔍 Cómo Ver los Eventos en Google Analytics</li>
+<li>Abre el código de los componentes TopFilter o TopBarMedioFilter.</li>
+<li>Reemplaza el valor de la constante GA_TRACKING_ID con tu ID de Google Analytics.</li>
+<li>const GA_TRACKING_ID = "G-XXXXXXXXXX"; // Reemplázalo con tu ID</li>
+<li>Abre tu cuenta de Google Analytics.</li>
+<li>Dirígete a "Informes → Eventos en tiempo real" para ver los registros en vivo.</li>
+<li>Para un análisis más detallado, accede a "Exploraciones → Eventos personalizados".</li>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-"# dashboard-next" 
+<li>✅ ¡Listo para monitorear tus datos!</li>
+<li>Con esta implementación, ahora puedes analizar el comportamiento de los usuarios en tiempo real y tomar decisiones basadas en datos.</li>
