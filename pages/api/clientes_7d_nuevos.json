@@ -1,0 +1,32 @@
+{
+  "clientes_7d_nuevos": [
+    { "cantidad": 2,  "compraron": 50, "dia": "Lunes"},
+    { "cantidad": 10,  "compraron": 100, "dia": "Martes"},
+    { "cantidad": 2,  "compraron": 50, "dia": "Miercoles"},
+    { "cantidad": 20,  "compraron": 60, "dia": "Jueves"},
+    { "cantidad": 40,  "compraron": 100, "dia": "Viernes"},
+    { "cantidad": 6,  "compraron": 50, "dia": "Sabado"},
+    { "cantidad": 6,  "compraron": 50, "dia": "Domingo"}
+  ],
+  "clientes_7d_nuevos_lunes": [
+    { "cantidad": 2,  "compraron": 14, "dia": "Lunes"}
+  ],
+  "clientes_7d_nuevos_martes": [
+    { "cantidad": 10,  "compraron": 400, "dia": "Martes"}
+  ],
+  "clientes_7d_nuevos_miercoles": [
+    { "cantidad": 2,  "compraron": 50, "dia": "Miercoles"}
+  ],
+  "clientes_7d_nuevos_jueves": [
+    { "cantidad": 20,  "compraron": 60, "dia": "Jueves"}
+  ],
+  "clientes_7d_nuevos_viernes": [
+    { "cantidad": 40,  "compraron": 10, "dia": "Viernes"}
+  ],
+  "clientes_7d_nuevos_sabado": [
+    { "cantidad": 6,  "compraron": 92, "dia": "Sabado"}
+  ],
+  "clientes_7d_nuevos_domingo": [
+    { "cantidad": 6,  "compraron": 50, "dia": "Domingo"}
+  ]
+}

@@ -1,0 +1,39 @@
+.switch-filter{
+    border: 2px solid #644BBA;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 180px;
+    padding: 2px;
+}
+
+.switch-filter-li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    padding-right: 10px;
+    font-size: 15px;
+    color:  #644BBA;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 6px;
+    width: 82px;
+}
+
+.switch-filter-active{
+    background-color:  #644BBA;
+    color: white;
+    border-radius: 20px;
+}
+
+.icon-bar{
+    font-size: 20px;
+}
+
+.icon-start{
+   font-size: 20px;
+}
+

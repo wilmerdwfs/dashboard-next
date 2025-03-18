@@ -1,0 +1,49 @@
+{
+    "total_meses": [
+        { 
+            "mes":"Noviembre", 
+            "detalle": [
+                { "clientes": 81.420},
+                { "ventas_totales": 1.100},
+                { "monto_total": 70},
+                { "acomulado": 200.000}
+            ],
+            "cashback": [
+                {"acomulado":700},
+                { "fecha": "01/11","total": 120.000},
+                { "fecha": "10/11","total": 200.000},
+                { "fecha": "20/11","total": 0}
+            ]
+        },
+        { 
+            "mes":"Obtubre", 
+            "detalle": [
+                { "clientes": 81.295},
+                { "ventas_totales": 3.800},
+                { "monto_total": 170.84},
+                { "acomulado": 700.000}
+            ],
+            "cashback": [
+                {"acomulado":700},
+                { "fecha": "01/10","total": 100.000},
+                { "fecha": "10/10","total": 250.000},
+                { "fecha": "20/10","total": 100}
+            ]
+        },
+        { 
+            "mes":"Septiembre", 
+            "detalle": [
+                { "clientes": 80.995},
+                { "ventas_totales": 4.000},
+                { "monto_total": 179.85},
+                { "acomulado": 450.000}
+            ],
+            "cashback": [
+                {"acomulado":700},
+                { "fecha": "01/09","total": 85.000},
+                { "fecha": "10/09","total": 80.000},
+                { "fecha": "20/09","total": 10}
+            ]
+        }
+    ]
+}

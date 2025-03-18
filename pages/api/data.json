@@ -1,0 +1,128 @@
+{
+    "clientes_hoy_nuevos": [
+      { "cantidad": 2,  "compraron": 50, "hora": "00:00"},
+      { "cantidad": 10,  "compraron": 100, "hora": "01:00"},
+      { "cantidad": 2,  "compraron": 50, "hora": "02:00"},
+      { "cantidad": 20,  "compraron": 60, "hora": "03:00"},
+      { "cantidad": 40,  "compraron": 100, "hora": "04:00"},
+      { "cantidad": 6,  "compraron": 50, "hora": "05:00"},
+      { "cantidad": 8,  "compraron": 80, "hora": "06:00"},
+      { "cantidad": 22,  "compraron": 70, "hora": "07:00"},
+      { "cantidad": 21,  "compraron": 90, "hora": "08:00"},
+      { "cantidad": 12,  "compraron": 10, "hora": "09:00"},
+      { "cantidad": 23,  "compraron": 20, "hora": "10:00"},
+      { "cantidad": 2,  "compraron": 10, "hora": "11:00"},
+      { "cantidad": 5,  "compraron": 30, "hora": "12:00"},
+      { "cantidad": 8,  "compraron": 40, "hora": "13:00"},
+      { "cantidad": 80,  "compraron": 200, "hora": "14:00"},
+      { "cantidad": 20,  "compraron": 90, "hora": "15:00"},
+      { "cantidad": 4,  "compraron": 10, "hora": "16:00"},
+      { "cantidad": 82,  "compraron": 20, "hora": "17:00"},
+      { "cantidad": 2,  "compraron": 60, "hora": "18:00"},
+      { "cantidad": 21,  "compraron": 40, "hora": "19:00"},
+      { "cantidad": 20,  "compraron": 30, "hora": "20:00"},
+      { "cantidad": 8,  "compraron": 40, "hora": "21:00"},
+      { "cantidad": 6,  "compraron": 30, "hora": "22:00"},
+      { "cantidad": 2,  "compraron": 50, "hora": "23:00"}
+    ],
+    "articulos": [
+      { "id": 1, "nombre": "Laptop", "precio": 1200 },
+      { "id": 2, "nombre": "Mouse", "precio": 25 },
+      { "id": 3, "nombre": "Teclado", "precio": 45 },
+      { "id": 4, "nombre": "Monitor", "precio": 300 },
+      { "id": 5, "nombre": "Escritorio", "precio": 150 },
+      { "id": 6, "nombre": "Silla", "precio": 200 }
+    ],
+    "pedidos": [
+      {
+        "id": 101,
+        "fecha": "2025-03-07",
+        "cliente_id": 2,
+        "detalle": [
+          { "pedido_id": 101, "articulo_id": 3, "iva": 19, "valor_articulo": 45, "cantidad": 2, "total": 107.1 },
+          { "pedido_id": 101, "articulo_id": 6, "iva": 19, "valor_articulo": 200, "cantidad": 1, "total": 238 }
+        ]
+      },
+      {
+        "id": 102,
+        "fecha": "2025-03-06",
+        "cliente_id": 4,
+        "detalle": [
+          { "pedido_id": 102, "articulo_id": 1, "iva": 19, "valor_articulo": 1200, "cantidad": 1, "total": 1428 },
+          { "pedido_id": 102, "articulo_id": 5, "iva": 19, "valor_articulo": 150, "cantidad": 3, "total": 535.5 },
+          { "pedido_id": 102, "articulo_id": 2, "iva": 19, "valor_articulo": 25, "cantidad": 4, "total": 119 }
+        ]
+      },
+      {
+        "id": 103,
+        "fecha": "2025-03-05",
+        "cliente_id": 1,
+        "detalle": [
+          { "pedido_id": 103, "articulo_id": 4, "iva": 19, "valor_articulo": 300, "cantidad": 2, "total": 714 },
+          { "pedido_id": 103, "articulo_id": 6, "iva": 19, "valor_articulo": 200, "cantidad": 1, "total": 238 }
+        ]
+      },
+      {
+        "id": 104,
+        "fecha": "2025-03-04",
+        "cliente_id": 3,
+        "detalle": [
+          { "pedido_id": 104, "articulo_id": 2, "iva": 19, "valor_articulo": 25, "cantidad": 6, "total": 178.5 },
+          { "pedido_id": 104, "articulo_id": 5, "iva": 19, "valor_articulo": 150, "cantidad": 2, "total": 357 }
+        ]
+      },
+      {
+        "id": 105,
+        "fecha": "2025-03-03",
+        "cliente_id": 5,
+        "detalle": [
+          { "pedido_id": 105, "articulo_id": 1, "iva": 19, "valor_articulo": 1200, "cantidad": 1, "total": 1428 },
+          { "pedido_id": 105, "articulo_id": 3, "iva": 19, "valor_articulo": 45, "cantidad": 3, "total": 160.65 }
+        ]
+      },
+      {
+        "id": 106,
+        "fecha": "2025-03-02",
+        "cliente_id": 4,
+        "detalle": [
+          { "pedido_id": 106, "articulo_id": 6, "iva": 19, "valor_articulo": 200, "cantidad": 1, "total": 238 }
+        ]
+      },
+      {
+        "id": 107,
+        "fecha": "2025-03-01",
+        "cliente_id": 2,
+        "detalle": [
+          { "pedido_id": 107, "articulo_id": 5, "iva": 19, "valor_articulo": 150, "cantidad": 2, "total": 357 },
+          { "pedido_id": 107, "articulo_id": 3, "iva": 19, "valor_articulo": 45, "cantidad": 5, "total": 267.75 }
+        ]
+      },
+      {
+        "id": 108,
+        "fecha": "2025-02-28",
+        "cliente_id": 1,
+        "detalle": [
+          { "pedido_id": 108, "articulo_id": 2, "iva": 19, "valor_articulo": 25, "cantidad": 7, "total": 208.25 },
+          { "pedido_id": 108, "articulo_id": 4, "iva": 19, "valor_articulo": 300, "cantidad": 1, "total": 357 }
+        ]
+      },
+      {
+        "id": 109,
+        "fecha": "2025-02-27",
+        "cliente_id": 3,
+        "detalle": [
+          { "pedido_id": 109, "articulo_id": 1, "iva": 19, "valor_articulo": 1200, "cantidad": 1, "total": 1428 },
+          { "pedido_id": 109, "articulo_id": 6, "iva": 19, "valor_articulo": 200, "cantidad": 2, "total": 476 }
+        ]
+      },
+      {
+        "id": 110,
+        "fecha": "2025-02-26",
+        "cliente_id": 5,
+        "detalle": [
+          { "pedido_id": 110, "articulo_id": 3, "iva": 19, "valor_articulo": 45, "cantidad": 4, "total": 214.2 },
+          { "pedido_id": 110, "articulo_id": 5, "iva": 19, "valor_articulo": 150, "cantidad": 3, "total": 535.5 }
+        ]
+      }
+    ]
+  }

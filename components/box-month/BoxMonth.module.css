@@ -1,0 +1,44 @@
+.box-month-container{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.box-month{
+    min-height: 300px;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.box-month-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.box-month-body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box-month-body-row{
+    display: flex;
+}
+
+.box-month-title{
+    width: 100%;
+}
+
+.box-month-total{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.box-month-subtitulo{
+    font-weight: 600;
+}

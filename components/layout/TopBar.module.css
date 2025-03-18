@@ -1,0 +1,27 @@
+.topBar{
+    height: 64px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+}
+
+.topBarContent{
+   display: flex;
+   width: 100%;
+   grid-column: 4/7;
+}
+
+@media (max-width:  829.48px) {
+    .topBar{
+       display: flex;
+       justify-items: center;
+       justify-content: center;
+       gap: 10px;
+    }
+
+    .topBarContent{
+        display: flex;
+        justify-items: center;
+        gap: 10px;
+    }
+}

@@ -1,0 +1,13 @@
+.tablas-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+@media (max-width:  829.48px) {
+    .tablas-container{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,38 @@
+.bar-export{
+    display: grid;
+    grid-template-columns: 200px 1fr 200px; 
+    padding: 0px 20px;
+}
+
+.bar-export-descripciones {
+    grid-column-start: 2; 
+    display: flex;
+    justify-content: center;
+}
+
+.bar-export-export {
+    grid-column-start: 3; /* Se mantiene en la tercera posición */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bar-export-a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #614fa5;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.bar-export-icon{
+    font-size: 20px;
+}
+
+@media (max-width:  1307.10px) {
+    .bar-export{
+        display: flex;
+        flex-direction: column;
+    }
+}
